@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Bullet
+  - Enemy
+  - Coin
+  - HPChest
+  - AmmoChest
+  - Pipe
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Platform
+  - Player
+  - Background
+  - Bullet
+  - FirePoint
+  - Enemy
+  - Platform_Other
+  - Shell
+  - Item
+  - OutBullet
+  - Pipe
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 147447689
+    locked: 0
+  - name: WallShadow
+    uniqueID: 879763365
+    locked: 0
+  - name: Wall
+    uniqueID: 3567313665
+    locked: 0
+  - name: Enemy
+    uniqueID: 2183110035
+    locked: 0
+  - name: Player
+    uniqueID: 4141969265
+    locked: 0
+  - name: Elevator
+    uniqueID: 3038891129
+    locked: 0
+  - name: UI
+    uniqueID: 3005661403
+    locked: 0

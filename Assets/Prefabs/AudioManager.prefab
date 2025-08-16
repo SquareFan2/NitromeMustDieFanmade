@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1168641464694435838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5617323227685373878}
+  - component: {fileID: 1795870001247498812}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5617323227685373878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168641464694435838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 900.9826, y: 535.6015, z: -92.59101}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1795870001247498812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168641464694435838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a055f36f6dfac45bba24e5dc9ba5c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GM: {fileID: 0}
+  jump: {fileID: 8300000, guid: e95b45d252bd06e4986dee130c8b7606, type: 3}
+  hurt1_1: {fileID: 8300000, guid: f55e00801a0d75a4a9cd6f3993e8d17f, type: 3}
+  hurt1_2: {fileID: 8300000, guid: 0a2159360849dcd41b90dbb75b2ef2ba, type: 3}
+  hurt1_3: {fileID: 8300000, guid: 1a86ef6627dc64345a8ce3d952fb60e5, type: 3}
+  hurt1_4: {fileID: 8300000, guid: 42e0de78cc9b36f4db88c5e52e027c77, type: 3}
+  hurt1: []
+  dead1_1: {fileID: 8300000, guid: c5036daff1b545d40b2204e8bce9541d, type: 3}
+  dead1_2: {fileID: 8300000, guid: 4dc33b7496e8c264ca70ecca3f536e74, type: 3}
+  dead1: []
+  danger1: {fileID: 8300000, guid: fce8f1eaebc5c2242ac5b2115ef8b8c6, type: 3}
+  getBullet: {fileID: 8300000, guid: 5b9ab58f450ffe74bbd88a6f40046464, type: 3}
+  enemyDeath: {fileID: 8300000, guid: 3a6db4448be1e8b44863b4935e276c40, type: 3}
+  pistolFire: {fileID: 8300000, guid: 6afa69f58319595478d6e9b8ae6ccd29, type: 3}
+  machineGunFire: {fileID: 8300000, guid: e24ea58ce4cda684dbf0cfaab468e818, type: 3}
+  outOfAmmoFire: {fileID: 8300000, guid: 6a346f8a9a9a46246a0286231968273a, type: 3}
+  ShotgunFire: {fileID: 8300000, guid: 4385e7785d382944582d3fb1bb6ceb6d, type: 3}
+  coin: {fileID: 8300000, guid: ede1b71b42ed1914391d1a8264e58e19, type: 3}
+  ammoChest: {fileID: 8300000, guid: 81c3805bfa6180b41a09f4d492f3d238, type: 3}
+  hpChest: {fileID: 8300000, guid: ae425d44e731e254dbbf0257b0f385d6, type: 3}
+  elevatorOpen: {fileID: 8300000, guid: 27467de6e910d8a4abcc15c222499b5d, type: 3}
+  elevatorArrive: {fileID: 8300000, guid: e563ad58d237f184baa2cd46c0e72136, type: 3}
+  elevatorClose: {fileID: 8300000, guid: 71c3460f6f9a0554fbce0ce1578d2571, type: 3}
+  buttonIn: {fileID: 8300000, guid: a53a86652b7929c44a774798033ed80b, type: 3}
+  buttonOut: {fileID: 8300000, guid: bee3cc30073fb95479f904d303c42b9e, type: 3}
+  clear_1: {fileID: 8300000, guid: 18d629f3f57c85d42b70050560ebf7c8, type: 3}
+  clear_2: {fileID: 8300000, guid: 561aadb34d599c1409aa0b6b89564d50, type: 3}
+  clear_3: {fileID: 8300000, guid: 9d6e0ce5ccf90d5438623d54b72637d7, type: 3}
+  clear_4: {fileID: 8300000, guid: 55b1fda1e6cf3cd45b7a6ecb010d647f, type: 3}
+  clear_5: {fileID: 8300000, guid: 1b028ad7c24d07c49ba57c5dd51128a9, type: 3}
+  clear_6: {fileID: 8300000, guid: 16c9cbdec870ba74b980f24a72e634fe, type: 3}
+  clear: []
+  music1: {fileID: 8300000, guid: 18c5ee5055886a244b5dbdc8a3bc77a1, type: 3}
+  music2: {fileID: 8300000, guid: a398d8b8277d80a40884f4b93d2b4444, type: 3}
+  musicC: {fileID: 8300000, guid: 020ab419910ec4d4cbbf89f9597404ad, type: 3}
+  musicB: {fileID: 8300000, guid: db9a26a983c76f943a54c9eac55eb038, type: 3}
+  musicE: {fileID: 8300000, guid: bf8c9497cb0ac934ca757f12789708aa, type: 3}
+  tempSource: {fileID: 0}
+  playerSource: {fileID: 0}
+  player1DangerSource: {fileID: 0}
+  enemySource: {fileID: 0}
+  gunSource: {fileID: 0}
+  itemSource: {fileID: 0}
+  UISource: {fileID: 0}
+  musicSource: {fileID: 0}
+  a: 0

@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 1511723325
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6e16c9a1de6b56f0d16e72039702a9e5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 329eabbb23cdfd91074aa79542204cf5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 62
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 81c39b0054153964087f39516d381b64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1a41a083d2abdfb4ebeb188e73a204d6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 46689acceeed23d4fb818fc6283751ec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f84406dde28e1f4182a8fb794d0453e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/Items/CoinGenerator.prefab
+- Assets/Prefabs/Enemy/Misc/Enemy_Destroy_1.prefab
+Dependencies: []

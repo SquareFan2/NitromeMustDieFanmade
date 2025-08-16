@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1259643608
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 43b60a6e30d70815b95769d61ecabcba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 10a6a558690295dadb3dd990eda0821a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Materials/Light/LightMat.mat
+- Assets/Materials/Sprites_Default.shader
+Dependencies: []

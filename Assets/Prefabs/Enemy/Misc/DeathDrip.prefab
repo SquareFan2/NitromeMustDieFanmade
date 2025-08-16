@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6108045557694222080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6108045557694222108}
+  - component: {fileID: 6108045557694222109}
+  - component: {fileID: 6108045557694222110}
+  - component: {fileID: 6108045557694222111}
+  - component: {fileID: 6108045557694222107}
+  m_Layer: 16
+  m_Name: DeathDrip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6108045557694222108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108045557694222080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.17, y: 1.59, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6108045557694222109
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108045557694222080}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -727653631
+  m_SortingLayer: 3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 27cbf636d508cf94fa10b5750352207b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.125, y: 0.125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &6108045557694222110
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108045557694222080}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!58 &6108045557694222111
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108045557694222080}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.14
+--- !u!114 &6108045557694222107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108045557694222080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f84406dde28e1f4182a8fb794d0453e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drip1: {fileID: 21300000, guid: 27cbf636d508cf94fa10b5750352207b, type: 3}
+  drip2: {fileID: 21300000, guid: a50f1b2808b92e1469acf63462928ed2, type: 3}
+  drip3: {fileID: 21300000, guid: 5f8e3a426c2282c40b4331c7d21b4e66, type: 3}
+  drip4: {fileID: 21300000, guid: 9ebd92e218859a446a866c980dcdbb38, type: 3}
+  drip5: {fileID: 21300000, guid: 8ab543f2d73f9b04bbe0786e9448b9ce, type: 3}
+  drip6: {fileID: 21300000, guid: dfe9271ceef7c2541aa5cfab614f6177, type: 3}
+  drip7: {fileID: 21300000, guid: ca25bd7df56fac542938d62854d7ab7c, type: 3}
+  drip8: {fileID: 21300000, guid: bd016ebd064ce1f439caeb4c8b513484, type: 3}
+  drip9: {fileID: 21300000, guid: 9308c0c44b664ac40959aa27aa6c3dad, type: 3}
+  drip10: {fileID: 21300000, guid: fd7ce68a08af70743b798272518b83f4, type: 3}
+  drip11: {fileID: 21300000, guid: 454b957072783d643ba35f7b7374f4b1, type: 3}
+  drip12: {fileID: 21300000, guid: b0a6434599e9d0547a55870e4d00d60e, type: 3}
+  drip13: {fileID: 21300000, guid: ef798faf016453642b1be5dcae597d00, type: 3}
+  rend: {fileID: 6108045557694222109}
+  deathMat: {fileID: 2100000, guid: a3243160aaaed8549b1f702ba617f564, type: 2}
+  subdirp: {fileID: 4360832262332047899, guid: 5ecafb93f778ba54eb2adc2e1c999862, type: 3}
+  splash: {fileID: 5024127259746246520, guid: 38bdbb4725b8c9a4da3f42b4211c60b7, type: 3}
